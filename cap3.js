@@ -8,7 +8,7 @@
 
 const minNumero = (n1, n2) => {
     let arreglo = [n1, n2];
-    let final = Math.min(...arreglo)
+    let final = Math.min(...arreglo) //destructuring assignment
     return final;
 }
 
